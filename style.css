@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #b7b7b7;
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,6 +29,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    color:rgb(173, 174, 168);
+    background-color: rgb(246, 255, 0);
 }
 
 li a:hover:not(.active) {
@@ -37,9 +40,38 @@ li a:hover:not(.active) {
 
 .active {
   background-color: rgb(255, 0, 200);
+  color:rgb(246, 255, 0);
+    font-family: "Manrope", sans-serif;
+
 }
 
 h1 {
   width: 100%;
-  color:magenta
+  color:magenta;
+  font-family: "Manrope", sans-serif;
+
+}
+#tokki{
+  font-family: "Manrope", sans-serif;
+  color: rgb(0, 255, 247);
+}
+#music{
+  font-family: "Manrope", sans-serif;
+  color: mediumspringgreen;
+}
+#poo{
+  font-family: "Manrope", sans-serif;
+  color: rgb(255, 98, 0);
+}
+#moo{
+  font-family: "Manrope", sans-serif;
+  color: rgb(0, 4, 255);
+}
+#more{
+  font-family: "Manrope", sans-serif;
+  color:rgb(255, 0, 200)
+}
+#me{
+   font-family: "Manrope", sans-serif;
+  color:rgb(255, 0, 200) 
 }
